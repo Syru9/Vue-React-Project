@@ -1,0 +1,37 @@
+{
+  "id": "2318031",
+  "name": "new",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1176166",
+      "name": "选项卡菜单按钮",
+      "font_class": "classify",
+      "unicode": "e664",
+      "unicode_decimal": 58980
+    },
+    {
+      "icon_id": "4685784",
+      "name": "商店",
+      "font_class": "store",
+      "unicode": "e6ae",
+      "unicode_decimal": 59054
+    },
+    {
+      "icon_id": "7091330",
+      "name": "搜索",
+      "font_class": "search",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "3050508",
+      "name": "定位",
+      "font_class": "location",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    }
+  ]
+}
