@@ -1,0 +1,66 @@
+.index{
+	padding-top: 126px;
+}
+.top {
+  width: 100%;
+  height: 84px;
+	background: #d43c33;
+	position: fixed;
+  top: 0;
+  z-index: 99999;
+  // 头部
+  .inner {
+    width: 96%;
+    height: 100%;
+    margin: 0 auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    header {
+      .logo {
+        font-weight: normal;
+        span {
+          font-size: 22px;
+        }
+      }
+    }
+    .download {
+      border-radius: 18px;
+      text-align: center;
+      width: 100px;
+      height: 36px;
+      line-height: 36px;
+      background: #fff;
+      color: #d43c33;
+    }
+  }
+}
+// 导航
+.nav {
+	position: fixed;
+	top: 84px;
+  width: 100%;
+  height: 42px;
+  line-height: 40px;
+  text-align: center;
+	display: flex;
+  border-bottom: 1px solid #ddd;
+  background: #fff;
+  z-index: 99999;
+  a {
+		flex: 1;
+		span{
+			display: inline-block;
+      height: 40px;
+      font-size: 15px;
+		}
+	}
+	.active{
+		color: #dd001b;
+		.bd{
+      padding: 0 6px;
+			border-bottom: 2px solid #dd001b;
+		}
+	}
+}

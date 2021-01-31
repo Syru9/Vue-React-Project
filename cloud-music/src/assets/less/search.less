@@ -1,0 +1,129 @@
+.search {
+  // 搜索框
+  .searchBar {
+    padding: 15px 10px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    .searchInput {
+      width: 100%;
+      height: 30px;
+      padding: 0 30px;
+      box-sizing: border-box;
+      background: #ebecec;
+      border-radius: 30px;
+      input {
+        outline: none;
+        border: none;
+        background: #ebecec;
+        margin-top: 4px;
+        height: 24px;
+        width: 100%;
+        font-size: 14px;
+      }
+      .cleanInput {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        line-height: 14px;
+        text-align: center;
+        border-radius: 50%;
+        font-size: 12px;
+        position: absolute;
+        top: 22px;
+        right: 20px;
+        color: #fff;
+        background: #ccc;
+      }
+    }
+  }
+
+  // 热搜关键词
+  .hotSearch {
+    width: 94%;
+    margin: 0 auto;
+    color: #333;
+    .desc {
+      height: 36px;
+      line-height: 36px;
+      font-size: 12px;
+    }
+    .list {
+      display: flex;
+      flex-wrap: wrap;
+      .hot {
+        height: 16px;
+        border-radius: 16px;
+        border: 1px solid #ddd;
+        line-height: 16px;
+        padding: 8px 14px;
+        margin: 6px 4px;
+        span {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  // 搜索提示
+  .searchSuggest {
+    width: 100%;
+    ul {
+      width: 90%;
+      margin: 0 auto;
+      .firstLine {
+        color: #507daf;
+      }
+      li {
+        height: 46px;
+        line-height: 46px;
+        border-bottom: 1px solid #eee;
+        color: #333;
+      }
+    }
+  }
+
+  .searchSongsList {
+    ul {
+      li {
+        position: relative;
+        display: flex;
+        width: 96%;
+        margin: 0 auto;
+        border-bottom: 1px solid #ddd;
+        .info {
+          padding: 6px;
+          position: relative;
+          .songName {
+            color: #507daf;
+            width: 5rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+          .singer {
+            color: #666;
+            font-size: 12px;
+            margin-top: 8px;
+            width: 5rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+        }
+        .icon {
+          background: url('https://s3.music.126.net/mobile-new/img/index_icon_2x.png?5207a28c3767992ca4bb6d4887c74880=')
+            no-repeat;
+          background-size: 166px 97px;
+          // display: inline-block;
+          width: 22px;
+          height: 22px;
+          position: absolute;
+          right: 10px;
+          top: 50%;
+          margin-top: -11px;
+          background-position: -24px 0;
+        }
+      }
+    }
+  }
+}

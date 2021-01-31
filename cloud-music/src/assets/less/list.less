@@ -1,0 +1,77 @@
+// 列表
+.list {
+  // 头部装饰
+  .listHeader {
+    position: relative;
+    height: 4rem;
+    overflow: hidden;
+    .bg {
+      width: 100%;
+    }
+    .name {
+      position: absolute;
+      top: 1.6rem;
+      text-align: center;
+      width: 100%;
+      line-height: 40px;
+      background: #ccc;
+      mix-blend-mode:hard-light
+    }
+  }
+  .item {
+    display: flex;
+    padding: 6px 0 6px 10px;
+    height: 50px;
+    position: relative;
+    box-sizing: border-box;
+    .idx {
+      line-height: 50px;
+      color: #999;
+    }
+    .songInfo {
+      margin-left: 10px;
+      width: 5rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      .songName {
+        margin-top: 10px;
+        width: 5rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        .alia {
+          color: #999;
+          margin-left: 4px;
+          width: 2rem;
+          display: inline-block;
+          vertical-align: -3px;
+          // overflow: hidden;
+          // white-space: nowrap;
+          // text-overflow: ellipsis;
+        }
+      }
+      .singer {
+        font-size: 13px;
+        color: #888;
+        width: 5rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+    .playBtn {
+      background: url('https://s3.music.126.net/mobile-new/img/index_icon_2x.png?5207a28c3767992ca4bb6d4887c74880=')
+        no-repeat;
+      background-size: 166px 97px;
+      // display: inline-block;
+      width: 22px;
+      height: 22px;
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      margin-top: -11px;
+      background-position: -24px 0;
+    }
+  }
+}
