@@ -41,3 +41,15 @@ export function getLyric(id) {
 export function searchSong(keywords) {
   return axios.get('/search?keywords=' + keywords);
 }
+
+// 获取歌曲详情
+export function getSongInfo(ids) {
+  return axios.get('/song/detail', {
+    params: { ids },
+  });
+}
+
+// 获取最新音乐
+export function getNewSongs() {
+  return axios.get('/top/song');
+}
